@@ -179,7 +179,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:2000/api/v1/user/2"
+				"url": "http://localhost:2000/api/v1/users/2"
 			},
 			"response": []
 		},
@@ -188,7 +188,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:2000/api/v1/post/2"
+				"url": "http://localhost:2000/api/v1/posts/2"
 			},
 			"response": []
 		},
@@ -198,7 +198,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:2000/api/v1/user/11",
+					"raw": "http://localhost:2000/api/v1/users/11",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -207,7 +207,7 @@
 					"path": [
 						"api",
 						"v1",
-						"user",
+						"users",
 						"11"
 					],
 					"query": [
@@ -227,7 +227,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:2000/api/v1/post/101",
+					"raw": "http://localhost:2000/api/v1/posts/101",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -236,7 +236,7 @@
 					"path": [
 						"api",
 						"v1",
-						"post",
+						"posts",
 						"101"
 					],
 					"query": [
@@ -260,7 +260,7 @@
 					"urlencoded": [
 						{
 							"key": "name",
-							"value": "gaga",
+							"value": "gagaadasdasdasd",
 							"type": "text"
 						},
 						{
@@ -277,7 +277,7 @@
 						}
 					]
 				},
-				"url": "http://localhost:2000/api/v1/user/9"
+				"url": "http://localhost:2000/api/v1/users/9"
 			},
 			"response": []
 		},
@@ -291,7 +291,7 @@
 					"urlencoded": [
 						{
 							"key": "title",
-							"value": "gaga",
+							"value": "gaga1111111111111111111111",
 							"type": "text"
 						},
 						{
@@ -309,7 +309,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:2000/api/v1/post/100",
+					"raw": "http://localhost:2000/api/v1/posts/100",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -318,7 +318,7 @@
 					"path": [
 						"api",
 						"v1",
-						"post",
+						"posts",
 						"100"
 					],
 					"query": [
